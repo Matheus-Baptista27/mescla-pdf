@@ -44,7 +44,8 @@ O usuário informa o código do funcionário e o sistema realiza automaticamente
 
 1. Organize os arquivos PDF no seguinte formato:
 
-/{funcionario}/originais/
+- Colar os PDF's na pasta Originais
+- Renomear a pasta na raiz do projeto com o código do colaborador
 
 2. Acesse no navegador:
 
@@ -53,6 +54,8 @@ http://localhost/mescla-pdf/painel.php
 3. Informe o código do funcionário e clique em **Processar**
 
 ---
+![Demonstração do sistema](assets/print1.png)
+![Demonstração do sistema](assets/print2.png)
 
 ## ⚠️ Observações
 
