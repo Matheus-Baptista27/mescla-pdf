@@ -1,0 +1,13 @@
+# Ignorar todas as pastas de funcionários
+/*/
+
+# Mas manter essas pastas do projeto
+!/css/
+!/js/
+
+# Ignorar PDFs
+*/originais/
+*/gerados/
+
+# Temporários
+*.log
