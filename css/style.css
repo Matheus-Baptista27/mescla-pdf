@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    color: #222;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+    background: #1976d2;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+button:nth-child(3) {
+    background: #ff9800;
+}
+
+#log {
+    background: #fff;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+#log div {
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.log-ok {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.log-erro {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.log-info {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.bar {
+    width: 100%;
+    background: #e0e0e0;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    width: 0%;
+    background: linear-gradient(90deg, #4caf50, #8bc34a);
+    transition: width 0.3s;
+}
